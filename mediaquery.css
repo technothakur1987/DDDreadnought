@@ -1,0 +1,456 @@
+
+    
+
+    
+    
+
+
+
+@media (max-width: 575.98px) { 
+    
+    .profileLogo{
+        height: 3.5rem!important;
+    }
+    .profileIcon{
+        height: 2.5rem!important;
+    }
+    .myProfileOptions{
+        position: absolute!important;
+        left: 0!important;
+       top: 125px;/*refer to line 42-45(index.js)*/
+      width: 100%!important;
+        background-color: #0d6efd!important;
+        color: white!important;
+        list-style: none!important;
+          
+        padding: 0px!important;
+        font-weight: 400!important;
+        display: none;
+        font-size: 1.5rem!important;
+        
+    }
+    .myProfileOptions li:hover{
+        background-color: whitesmoke;
+        color: #0d6efd!important; ;
+    }
+    
+    .mqSearchProduct{
+        justify-content: center!important;
+        margin-top: 2rem!important;
+    }
+    .MyCategoryBordersm{
+        margin-top: 2.6rem!important;
+    }
+    .mybbb{
+        width: 100%!important;
+    }
+    .mybbbf1{
+        color: #0d6efd!important;
+        font-size: 1.5rem!important;
+        font-weight: 600!important;
+        height:12vh!important;
+        
+    }
+    .jasonImage{
+        height: 8vmin!important;
+        width: 8vmin!important;
+    }
+    .bbbhover:hover{
+   
+        -moz-box-shadow:    inset 0 0 10px #000000;
+       -webkit-box-shadow: inset 0 0 10px #000000;
+       box-shadow:         inset 0 0 10px #000000;
+       border-radius: 10px!important;
+       transition: all 1s linear 0s ease-in-out!important;
+       
+    }
+
+    .myFooter{
+        margin-top: 10vh!important;
+        height:40vh!important;
+        background-color: #0d6efd!important;
+        font-weight: bold!important;
+        
+        
+    }
+    .footer-column{
+        text-align: center!important;
+        
+    }
+    .mqRow{
+        height: 70%!important;
+    }
+    /*css for profile page */
+    /*edit profile */
+    .samplefixed{
+        display: none!important;
+    }
+    .samplechangecontent{
+        width: 100%!important;
+    
+        padding-top: 10vh!important;
+        font-size: larger!important;
+ 
+     }
+     .epmq{
+         flex-direction: column!important;
+         justify-content: space-between!important;
+         align-items: center!important;
+     }
+    .epmq1{
+         width: 100%!important;
+         
+         margin-top: 5vh!important;
+         margin-bottom: 5vh!important;
+     }
+     .epmq2{
+         padding-top: 1vh!important;
+         padding-bottom: 1vh!important;
+         
+         
+     }
+     .mqep3{
+         padding-left: 0px!important;
+         padding-right:0px !important;
+     }   
+     .mqep3 .form-check{
+         padding-top: 0.5vh!important;
+         padding-bottom: 0.5vh!important;
+     }
+
+     .epmq3{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .overFlow{
+        overflow-wrap: break-word!important;
+     }
+     .mqms{
+        font-size: small!important;
+     }
+
+     /*css for add/change credit card*/
+     .mqcrdt {
+        margin-top: 1vh!important;
+        margin-bottom: 1vh!important;
+        padding-top: 1vh!important;
+        padding-bottom: 1vh!important;
+     }
+
+
+     /*css for contact*/
+     .mqcon{
+        padding-top: 2vh!important;
+        padding-bottom: 2vh!important;
+        padding-left: 4vw!important;
+        padding-right: 4vw!important;
+     }
+     .mqcon1{
+        margin-top: 3vh!important;
+        font-size: 1.5rem!important;
+     }
+     .mqcon2{
+        padding-left: 5vw!important;
+        padding-right: 5vw!important;
+     }
+     .mqcon3{
+        height: 10em!important;
+     }
+    
+    
+      
+    
+    
+     
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    
+    .profileLogo{
+        height: 3.5rem!important;
+    }
+    .profileIcon{
+        height: 2.5rem!important;
+    }
+    .myProfileOptions{
+        position: absolute!important;
+        left: 0!important;
+       top: 125px;/*refer to line 42-45(index.js)*/
+      width: 100%!important;
+        background-color: #0d6efd!important;
+        color: white!important;
+        list-style: none!important;
+          
+        padding: 0px!important;
+        font-weight: 400!important;
+        display: none;
+        font-size: 1.5rem!important;
+        
+    }
+    .myProfileOptions li:hover{
+        background-color: whitesmoke;
+        color: #0d6efd!important; ;
+    }
+    
+    
+   .myMain{
+        margin-top: 09rem!important;
+    }
+    .mqSearchProduct{
+        justify-content: center!important;
+        margin-top: 2rem!important;
+    }
+    .MyCategoryBorder{
+        padding-top: 1.0rem!important;
+        padding-bottom: 1.0rem!important;
+        padding-left: 1rem!important;
+        padding-right:1rem!important;
+        font-size: 1.8rem!important;
+    }
+    .mqMainBtn{
+        font-size: 1.8rem!important;
+    }
+    .myProductInput{
+        font-size: 2.1rem!important;
+    }
+    .myProductBtn{
+        font-size: 2.1rem!important;
+    }
+
+    .mybbb{
+        width: 100%!important;
+        height: 75vh!important;
+    }
+    .mybbbimages{
+        height: 45vh!important;
+    }
+    .mybbbf1{
+        color: #0d6efd!important;
+        font-size: 2.1rem!important;
+        font-weight: 600!important;
+        height:12vh!important;
+        
+    }
+    .mybbbf2{
+        font-size: 1.2rem!important;
+    }
+    .jasonImage{
+        height: 8vmin!important;
+        width: 8vmin!important;
+    }
+    .jasonMiller{
+        font-size: 1.2rem!important;
+    }
+    .bbbhover:hover{
+   
+        -moz-box-shadow:    inset 0 0 10px #000000;
+       -webkit-box-shadow: inset 0 0 10px #000000;
+       box-shadow:         inset 0 0 10px #000000;
+       border-radius: 10px!important;
+       transition: all 1s linear 0s ease-in-out!important;
+       
+    }
+    .myFooter{
+        margin-top: 10vh!important;
+        height:40vh!important;
+        background-color: #0d6efd!important;
+        font-weight: bold!important;
+        
+        
+    }
+    .footer-column{
+        text-align: center!important;
+        margin-bottom: 0.5rem!important;
+        margin-top: 0.5rem!important;
+        
+    }
+    .mqRow{
+        height: 100%!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        
+    }
+    /*css for profile page */
+    /*edit profile */
+    .samplefixed{
+        display: none!important;
+    }
+    .samplechangecontent{
+        width: 100%!important;
+    
+        padding-top: 10vh!important;
+        font-size: larger!important;
+ 
+     }
+     .epmq{
+         flex-direction: column!important;
+         justify-content: space-between!important;
+         align-items: center!important;
+     }
+    .epmq1{
+         width: 100%!important;
+         
+         margin-top: 5vh!important;
+         margin-bottom: 5vh!important;
+     }
+     .epmq2{
+         padding-top: 1vh!important;
+         padding-bottom: 1vh!important;
+     }
+     .mqep3{
+         padding-left: 0px!important;
+         padding-right:0px !important;
+     }   
+     .mqep3 .form-check{
+         padding-top: 0.5vh!important;
+         padding-bottom: 0.5vh!important;
+     }
+
+     .epmq3{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+
+     /*css for contact*/
+     .mqcon{
+        padding-top: 2vh!important;
+        padding-bottom: 2vh!important;
+        padding-left: 4vw!important;
+        padding-right: 4vw!important;
+     }
+     .mqcon1{
+        margin-top: 3vh!important;
+        font-size: 1.5rem!important;
+     }
+     .mqcon2{
+        padding-left: 5vw!important;
+        padding-right: 5vw!important;
+     }
+     .mqcon3{
+        height: 10em!important;
+     }
+    
+    
+    
+    
+  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+   
+    .profileLogo{
+        height: 3.5rem!important;
+    }
+    .profileIcon{
+        height: 2.5rem!important;
+    }
+    .myProfileOptions{
+        position: absolute!important;
+        left: 0!important;
+       top: 125px;/*refer to line 42-45(index.js)*/
+      width: 100%!important;
+        background-color: #0d6efd!important;
+        color: white!important;
+        list-style: none!important;
+          
+        padding: 0px!important;
+        font-weight: 400!important;
+        display: none;
+        font-size: 1.5rem!important;
+        
+    }
+    .myProfileOptions li:hover{
+        background-color: whitesmoke;
+        color: #0d6efd!important; ;
+    }
+   .myMain{
+        margin-top: 10rem!important;
+    }
+    .mqSearchProduct{
+        justify-content: center!important;
+        margin-top: 2rem!important;
+    }
+    .MyCategoryBorder{
+        padding-top: 1.5rem!important;
+        padding-bottom: 1.5rem!important;
+        font-size: 2.1rem!important;
+    }
+    .myProductInput{
+        font-size: 2.1rem!important;
+    }
+    .myProductBtn{
+        font-size: 2.1rem!important;
+    }
+    .mqMainBtn{
+        font-size: 2.1rem!important;
+    }
+    .bbbhover:hover{
+   
+        -moz-box-shadow:    inset 0 0 10px #000000;
+       -webkit-box-shadow: inset 0 0 10px #000000;
+       box-shadow:         inset 0 0 10px #000000;
+       border-radius: 10px!important;
+       transition: all 1s linear 0s ease-in-out!important;
+       
+    }
+    /*css for profile page */
+    /*edit profile */
+    .samplechangecontent{
+       padding-top: 5vh!important;
+       font-size: larger!important;
+
+    }
+    .epmq{
+        flex-direction: column!important;
+        justify-content: space-between!important;
+        align-items: center!important;
+    }
+   .epmq1{
+        width: 100%!important;
+        
+        margin-top: 5vh!important;
+        margin-bottom: 5vh!important;
+    }
+    .epmq2{
+        padding-top: 1vh!important;
+        padding-bottom: 1vh!important;
+    }
+    .mqep3{
+        padding-left: 0px!important;
+        padding-right:0px !important;
+    }   
+    .mqep3 .form-check{
+        padding-top: 0.5vh!important;
+        padding-bottom: 0.5vh!important;
+    }
+    
+    
+    
+ }
+
+
+@media (min-width: 768px) and (max-width: 1198.98px) { 
+
+    
+    
+}
+
+
+@media (max-width: 1400px) { 
+    
+    
+ }

@@ -1,0 +1,15 @@
+There is one index,html which can be consisdered as the main page and 
+then with five additional pages for each section of the profile page 
+
+little bit of js is used to add some eventlisteners ,, this dashboard can be easily made 
+using reactjs library also but i prefrerred bootstrap5 with a single page for every 
+option (edit profile ,mamange subscription etc)because I saw u r original dashboard 
+is also using bootstrap framework .favicon and images are copied from the original refrence 
+website of dreadnought..
+
+if detailed outline of the layout for dashboard was given , we could have designed 
+according to the requirement..
+
+
+
+

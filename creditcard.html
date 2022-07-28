@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="School for Deep Tech founders" />
+    <meta name="keywords" content="technical coding futurenterprenuers earnwhilelearn learnandearn" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous" />
+
+    <title>DreadNought-Credit Cards</title>
+    <link rel="icon" type="image/x-icon" href="images/icons8-airplane-take-off-windows-11-color-96.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <script src="https://kit.fontawesome.com/e357c704ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-primary myNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><i
+                    class="fa fa-angle-left border rounded-circle p-2 bg-dark text-white"></i>
+            </a>
+        </div>
+    </nav>
+
+    
+    <!--main page-->
+    <div class="container-fluid mt-5 samplefixed">
+        <div class="row ">
+            <div class="col-12 " style=" font-size: 1.2rem !important">
+                <div class="row">
+                    <div class="col-12 mt-2 pt-1 pb-1 profileHover ep1  ">
+                        Edit Profile
+                    </div>
+                    <div class="col-12 mt-2 pt-1 pb-1 profileHover ms1 ">
+                        Manage Subbscriptions
+                    </div>
+                    <div class="col-12 mt-2 pt-1 pb-1 profileHover crdb blackBorder ">
+                        Add/Change Credit Cards
+                    </div>
+                    <div class="col-12 mt-2 pt-1 pb-1 profileHover add ">
+                        Address
+                    </div>
+                    <div class="col-12 mt-2 pt-1 pb-1 profileHover con ">
+                        Contact
+                    </div>
+                    <div class="col-12 mt-2 pt-1 pb-1 profileHover loggout">
+                        Log Out
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid samplechangecontent">
+        <div class="course-mainbar container edit-settings-page">
+
+
+            <h2 class="section-title mt-3 mb-3">
+                Add / Change Credit Card
+            </h2>
+        
+            <div class="alert alert-success mt-3 mb-3">
+                <span class="hidden" id="current_cc">
+        
+                    The card you have on file ends in <span class="saved-cc">.</span>
+                </span>
+                <span class="" id="cc_justification">
+                    You must keep a card on file as long as you have an active subscription or payment plan.
+                </span>
+            </div>
+            <div class="row payment-form mt-3 mt-3">
+                <div class="row">
+                    <form class="cc-form" id="cc-form" action="/secure/1105881/credit_card" accept-charset="UTF-8"
+                        method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden"
+                            name="authenticity_token"
+                            value="btI0NaS5lPbyfdLHv2uXfccMhp7ZhWrFzE+JreTRnWa7JLMqkjNsyy0t/wUbU3gg/EJpu9o2fFa0CCZhT28EIA==">
+        
+                        <div class=" card-info" id="new_card">
+        
+                            <div class="row form-group mqcrdt">
+                                <div class="col-sm-6 item">
+                                    <label class="control-default" for="card_name">
+                                        Name on Card
+                                    </label>
+        
+                                    <input class="form-control" placeholder="Emily J Smith" name="card_name"
+                                        id="cc-name">
+                                </div>
+                            </div>
+        
+                            <div class="row form-group mqcrdt">
+                                <div class="col-sm-6">
+                                    <label class="control-default" for="cc_field">
+                                        Card Number
+                                    </label>
+        
+                                    <div id="cc-number" class="StripeElement StripeElement--empty">
+                                        <div class="__PrivateStripeElement"
+                                            style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+                                            <iframe name="__privateStripeFrame8288" frameborder="0"
+                                                allowtransparency="true" scrolling="no" allow="payment *"
+                                                src="https://js.stripe.com/v3/elements-inner-card-4c4e9cdd1076fb42279eddc7ed3b2b22.html#wait=false&amp;mids[guid]=NA&amp;mids[muid]=a6cc68f6-64ba-46f8-8eed-56a4895eede05b4941&amp;mids[sid]=2baa69aa-2793-4fb1-9334-65fa222a788df4e2cf&amp;style[base][color]=%23555&amp;style[base][fontSize]=13px&amp;style[base][fontWeight]=500&amp;style[base][letterSpacing]=0.8px&amp;style[base][lineHeight]=40px&amp;style[invalid][color]=%23db5694&amp;style[invalid][:focus][color]=%23555&amp;rtl=false&amp;componentName=cardNumber&amp;keyMode=live&amp;apiKey=pk_live_hkgvgSBxG4TAl3zGlXiB1KUX&amp;referrer=https%3A%2F%2Fsso.teachable.com%2Fsecure%2F1105881%2Fcurrent_user%2Fcredit_card&amp;controllerId=__privateStripeController8281"
+                                                title="Secure card number input frame"
+                                                style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; height: 40px;"></iframe><input
+                                                class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" "
+                                                autocomplete="false" maxlength="1"
+                                                style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;">
+                                        </div>
+                                    </div>
+        
+                                    <div class="card-logos">
+                                        <img height="18px"
+                                            src="https://fedora.teachablecdn.com/assets/credit-card-logos/visa-8f9efe7553852c98209ef41061ef9f73467e2e213fe940e07ae9ab43f636d283.svg">
+                                        <img height="25px"
+                                            src="https://fedora.teachablecdn.com/assets/credit-card-logos/american_express-c3395370155f68783beadd8f5a4104504a5a0a93e935d113b10003b1a47bc3eb.svg">
+                                        <img height="18px"
+                                            src="https://fedora.teachablecdn.com/assets/credit-card-logos/mastercard-2369162d32348b52e509e9711f30e7c7ace4ae32a446ca26c283facf08c36021.svg">
+                                    </div>
+                                </div>
+        
+                                <div class="col-sm-6 item">
+                                    <label class="control-default" for="country_field">
+                                        Country
+                                    </label>
+        
+                                    <select name="country" id="country-select-inside"
+                                        class="half_width form-control country-select">
+                                        <option value="">Select your billing country</option>
+                                        <option value="AF">Afghanistan</option>
+                                        <option value="AX">Åland Islands</option>
+                                        <option value="AL">Albania</option>
+                                        <option value="DZ">Algeria</option>
+                                        <option value="AS">American Samoa</option>
+                                        <option value="AD">Andorra</option>
+                                        <option value="AO">Angola</option>
+                                        <option value="AI">Anguilla</option>
+                                        <option value="AQ">Antarctica</option>
+                                        <option value="AG">Antigua and Barbuda</option>
+                                        <option value="AR">Argentina</option>
+                                        <option value="AM">Armenia</option>
+                                        <option value="AW">Aruba</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="AT">Austria</option>
+                                        <option value="AZ">Azerbaijan</option>
+                                        <option value="BS">Bahamas</option>
+                                        <option value="BH">Bahrain</option>
+                                        <option value="BD">Bangladesh</option>
+                                        <option value="BB">Barbados</option>
+                                        <option value="BY">Belarus</option>
+                                        <option value="BE">Belgium</option>
+                                        <option value="BZ">Belize</option>
+                                        <option value="BJ">Benin</option>
+                                        <option value="BM">Bermuda</option>
+                                        <option value="BT">Bhutan</option>
+                                        <option value="BO">Bolivia, Plurinational State of</option>
+                                        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                        <option value="BA">Bosnia and Herzegovina</option>
+                                        <option value="BW">Botswana</option>
+                                        <option value="BV">Bouvet Island</option>
+                                        <option value="BR">Brazil</option>
+                                        <option value="IO">British Indian Ocean Territory</option>
+                                        <option value="BN">Brunei Darussalam</option>
+                                        <option value="BG">Bulgaria</option>
+                                        <option value="BF">Burkina Faso</option>
+                                        <option value="BI">Burundi</option>
+                                        <option value="KH">Cambodia</option>
+                                        <option value="CM">Cameroon</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="CV">Cape Verde</option>
+                                        <option value="KY">Cayman Islands</option>
+                                        <option value="CF">Central African Republic</option>
+                                        <option value="TD">Chad</option>
+                                        <option value="CL">Chile</option>
+                                        <option value="CN">China</option>
+                                        <option value="CX">Christmas Island</option>
+                                        <option value="CC">Cocos (Keeling) Islands</option>
+                                        <option value="CO">Colombia</option>
+                                        <option value="KM">Comoros</option>
+                                        <option value="CG">Congo</option>
+                                        <option value="CD">Congo, the Democratic Republic of the</option>
+                                        <option value="CK">Cook Islands</option>
+                                        <option value="CR">Costa Rica</option>
+                                        <option value="CI">Côte d'Ivoire</option>
+                                        <option value="HR">Croatia</option>
+                                        <option value="CU">Cuba</option>
+                                        <option value="CW">Curaçao</option>
+                                        <option value="CY">Cyprus</option>
+                                        <option value="CZ">Czech Republic</option>
+                                        <option value="DK">Denmark</option>
+                                        <option value="DJ">Djibouti</option>
+                                        <option value="DM">Dominica</option>
+                                        <option value="DO">Dominican Republic</option>
+                                        <option value="EC">Ecuador</option>
+                                        <option value="EG">Egypt</option>
+                                        <option value="SV">El Salvador</option>
+                                        <option value="GQ">Equatorial Guinea</option>
+                                        <option value="ER">Eritrea</option>
+                                        <option value="EE">Estonia</option>
+                                        <option value="ET">Ethiopia</option>
+                                        <option value="FK">Falkland Islands (Malvinas)</option>
+                                        <option value="FO">Faroe Islands</option>
+                                        <option value="FJ">Fiji</option>
+                                        <option value="FI">Finland</option>
+                                        <option value="FR">France</option>
+                                        <option value="GF">French Guiana</option>
+                                        <option value="PF">French Polynesia</option>
+                                        <option value="TF">French Southern Territories</option>
+                                        <option value="GA">Gabon</option>
+                                        <option value="GM">Gambia</option>
+                                        <option value="GE">Georgia</option>
+                                        <option value="DE">Germany</option>
+                                        <option value="GH">Ghana</option>
+                                        <option value="GI">Gibraltar</option>
+                                        <option value="GR">Greece</option>
+                                        <option value="GL">Greenland</option>
+                                        <option value="GD">Grenada</option>
+                                        <option value="GP">Guadeloupe</option>
+                                        <option value="GU">Guam</option>
+                                        <option value="GT">Guatemala</option>
+                                        <option value="GG">Guernsey</option>
+                                        <option value="GN">Guinea</option>
+                                        <option value="GW">Guinea-Bissau</option>
+                                        <option value="GY">Guyana</option>
+                                        <option value="HT">Haiti</option>
+                                        <option value="HM">Heard Island and McDonald Islands</option>
+                                        <option value="VA">Holy See (Vatican City State)</option>
+                                        <option value="HN">Honduras</option>
+                                        <option value="HK">Hong Kong</option>
+                                        <option value="HU">Hungary</option>
+                                        <option value="IS">Iceland</option>
+                                        <option value="IN">India</option>
+                                        <option value="ID">Indonesia</option>
+                                        <option value="IR">Iran, Islamic Republic of</option>
+                                        <option value="IQ">Iraq</option>
+                                        <option value="IE">Ireland</option>
+                                        <option value="IM">Isle of Man</option>
+                                        <option value="IL">Israel</option>
+                                        <option value="IT">Italy</option>
+                                        <option value="JM">Jamaica</option>
+                                        <option value="JP">Japan</option>
+                                        <option value="JE">Jersey</option>
+                                        <option value="JO">Jordan</option>
+                                        <option value="KZ">Kazakhstan</option>
+                                        <option value="KE">Kenya</option>
+                                        <option value="KI">Kiribati</option>
+                                        <option value="KP">Korea, Democratic People's Republic of</option>
+                                        <option value="KR">Korea, Republic of</option>
+                                        <option value="KW">Kuwait</option>
+                                        <option value="KG">Kyrgyzstan</option>
+                                        <option value="LA">Lao People's Democratic Republic</option>
+                                        <option value="LV">Latvia</option>
+                                        <option value="LB">Lebanon</option>
+                                        <option value="LS">Lesotho</option>
+                                        <option value="LR">Liberia</option>
+                                        <option value="LY">Libya</option>
+                                        <option value="LI">Liechtenstein</option>
+                                        <option value="LT">Lithuania</option>
+                                        <option value="LU">Luxembourg</option>
+                                        <option value="MO">Macao</option>
+                                        <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                                        <option value="MG">Madagascar</option>
+                                        <option value="MW">Malawi</option>
+                                        <option value="MY">Malaysia</option>
+                                        <option value="MV">Maldives</option>
+                                        <option value="ML">Mali</option>
+                                        <option value="MT">Malta</option>
+                                        <option value="MH">Marshall Islands</option>
+                                        <option value="MQ">Martinique</option>
+                                        <option value="MR">Mauritania</option>
+                                        <option value="MU">Mauritius</option>
+                                        <option value="YT">Mayotte</option>
+                                        <option value="MX">Mexico</option>
+                                        <option value="FM">Micronesia, Federated States of</option>
+                                        <option value="MD">Moldova, Republic of</option>
+                                        <option value="MC">Monaco</option>
+                                        <option value="MN">Mongolia</option>
+                                        <option value="ME">Montenegro</option>
+                                        <option value="MS">Montserrat</option>
+                                        <option value="MA">Morocco</option>
+                                        <option value="MZ">Mozambique</option>
+                                        <option value="MM">Myanmar</option>
+                                        <option value="NA">Namibia</option>
+                                        <option value="NR">Nauru</option>
+                                        <option value="NP">Nepal</option>
+                                        <option value="NL">Netherlands</option>
+                                        <option value="NC">New Caledonia</option>
+                                        <option value="NZ">New Zealand</option>
+                                        <option value="NI">Nicaragua</option>
+                                        <option value="NE">Niger</option>
+                                        <option value="NG">Nigeria</option>
+                                        <option value="NU">Niue</option>
+                                        <option value="NF">Norfolk Island</option>
+                                        <option value="MP">Northern Mariana Islands</option>
+                                        <option value="NO">Norway</option>
+                                        <option value="OM">Oman</option>
+                                        <option value="PK">Pakistan</option>
+                                        <option value="PW">Palau</option>
+                                        <option value="PS">Palestine, State of</option>
+                                        <option value="PA">Panama</option>
+                                        <option value="PG">Papua New Guinea</option>
+                                        <option value="PY">Paraguay</option>
+                                        <option value="PE">Peru</option>
+                                        <option value="PH">Philippines</option>
+                                        <option value="PN">Pitcairn</option>
+                                        <option value="PL">Poland</option>
+                                        <option value="PT">Portugal</option>
+                                        <option value="PR">Puerto Rico</option>
+                                        <option value="QA">Qatar</option>
+                                        <option value="RE">Réunion</option>
+                                        <option value="RO">Romania</option>
+                                        <option value="RU">Russian Federation</option>
+                                        <option value="RW">Rwanda</option>
+                                        <option value="BL">Saint Barthélemy</option>
+                                        <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                        <option value="KN">Saint Kitts and Nevis</option>
+                                        <option value="LC">Saint Lucia</option>
+                                        <option value="MF">Saint Martin (French part)</option>
+                                        <option value="PM">Saint Pierre and Miquelon</option>
+                                        <option value="VC">Saint Vincent and the Grenadines</option>
+                                        <option value="WS">Samoa</option>
+                                        <option value="SM">San Marino</option>
+                                        <option value="ST">Sao Tome and Principe</option>
+                                        <option value="SA">Saudi Arabia</option>
+                                        <option value="SN">Senegal</option>
+                                        <option value="RS">Serbia</option>
+                                        <option value="SC">Seychelles</option>
+                                        <option value="SL">Sierra Leone</option>
+                                        <option value="SG">Singapore</option>
+                                        <option value="SX">Sint Maarten (Dutch part)</option>
+                                        <option value="SK">Slovakia</option>
+                                        <option value="SI">Slovenia</option>
+                                        <option value="SB">Solomon Islands</option>
+                                        <option value="SO">Somalia</option>
+                                        <option value="ZA">South Africa</option>
+                                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                        <option value="SS">South Sudan</option>
+                                        <option value="ES">Spain</option>
+                                        <option value="LK">Sri Lanka</option>
+                                        <option value="SD">Sudan</option>
+                                        <option value="SR">Suriname</option>
+                                        <option value="SJ">Svalbard and Jan Mayen</option>
+                                        <option value="SZ">Swaziland</option>
+                                        <option value="SE">Sweden</option>
+                                        <option value="CH">Switzerland</option>
+                                        <option value="SY">Syrian Arab Republic</option>
+                                        <option value="TW">Taiwan</option>
+                                        <option value="TJ">Tajikistan</option>
+                                        <option value="TZ">Tanzania, United Republic of</option>
+                                        <option value="TH">Thailand</option>
+                                        <option value="TL">Timor-Leste</option>
+                                        <option value="TG">Togo</option>
+                                        <option value="TK">Tokelau</option>
+                                        <option value="TO">Tonga</option>
+                                        <option value="TT">Trinidad and Tobago</option>
+                                        <option value="TN">Tunisia</option>
+                                        <option value="TR">Turkey</option>
+                                        <option value="TM">Turkmenistan</option>
+                                        <option value="TC">Turks and Caicos Islands</option>
+                                        <option value="TV">Tuvalu</option>
+                                        <option value="UG">Uganda</option>
+                                        <option value="UA">Ukraine</option>
+                                        <option value="AE">United Arab Emirates</option>
+                                        <option value="GB">United Kingdom</option>
+                                        <option value="US">United States</option>
+                                        <option value="UM">United States Minor Outlying Islands</option>
+                                        <option value="UY">Uruguay</option>
+                                        <option value="UZ">Uzbekistan</option>
+                                        <option value="VU">Vanuatu</option>
+                                        <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                        <option value="VN">Viet Nam</option>
+                                        <option value="VG">Virgin Islands, British</option>
+                                        <option value="VI">Virgin Islands, U.S.</option>
+                                        <option value="WF">Wallis and Futuna</option>
+                                        <option value="EH">Western Sahara</option>
+                                        <option value="YE">Yemen</option>
+                                        <option value="ZM">Zambia</option>
+                                        <option value="ZW">Zimbabwe</option>
+                                    </select>
+                                </div>
+                            </div>
+        
+                            <div class="row form-group mqcrdt">
+                                <div class="col-sm-6 item">
+                                    <label class="control-default" for="cc-exp">
+                                        Expiration Date
+                                    </label>
+        
+                                    <div id="cc-expiry" class="StripeElement StripeElement--empty">
+                                        <div class="__PrivateStripeElement"
+                                            style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+                                            <iframe name="__privateStripeFrame8287" frameborder="0"
+                                                allowtransparency="true" scrolling="no" allow="payment *"
+                                                src="https://js.stripe.com/v3/elements-inner-card-4c4e9cdd1076fb42279eddc7ed3b2b22.html#wait=false&amp;mids[guid]=NA&amp;mids[muid]=a6cc68f6-64ba-46f8-8eed-56a4895eede05b4941&amp;mids[sid]=2baa69aa-2793-4fb1-9334-65fa222a788df4e2cf&amp;style[base][color]=%23555&amp;style[base][fontSize]=13px&amp;style[base][fontWeight]=500&amp;style[base][letterSpacing]=0.8px&amp;style[base][lineHeight]=40px&amp;style[invalid][color]=%23db5694&amp;style[invalid][:focus][color]=%23555&amp;rtl=false&amp;componentName=cardExpiry&amp;keyMode=live&amp;apiKey=pk_live_hkgvgSBxG4TAl3zGlXiB1KUX&amp;referrer=https%3A%2F%2Fsso.teachable.com%2Fsecure%2F1105881%2Fcurrent_user%2Fcredit_card&amp;controllerId=__privateStripeController8281"
+                                                title="Secure expiration date input frame"
+                                                style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; height: 40px;"></iframe><input
+                                                class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" "
+                                                autocomplete="false" maxlength="1"
+                                                style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;">
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-sm-6 item">
+                                    <label class="control-default" for="cc_cvc">
+                                        CVC Code
+                                    </label>
+        
+                                    <div id="cc-cvc" class="StripeElement StripeElement--empty">
+                                        <div class="__PrivateStripeElement"
+                                            style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+                                            <iframe name="__privateStripeFrame8286" frameborder="0"
+                                                allowtransparency="true" scrolling="no" allow="payment *"
+                                                src="https://js.stripe.com/v3/elements-inner-card-4c4e9cdd1076fb42279eddc7ed3b2b22.html#wait=false&amp;mids[guid]=NA&amp;mids[muid]=a6cc68f6-64ba-46f8-8eed-56a4895eede05b4941&amp;mids[sid]=2baa69aa-2793-4fb1-9334-65fa222a788df4e2cf&amp;style[base][color]=%23555&amp;style[base][fontSize]=13px&amp;style[base][fontWeight]=500&amp;style[base][letterSpacing]=0.8px&amp;style[base][lineHeight]=40px&amp;style[invalid][color]=%23db5694&amp;style[invalid][:focus][color]=%23555&amp;rtl=false&amp;componentName=cardCvc&amp;keyMode=live&amp;apiKey=pk_live_hkgvgSBxG4TAl3zGlXiB1KUX&amp;referrer=https%3A%2F%2Fsso.teachable.com%2Fsecure%2F1105881%2Fcurrent_user%2Fcredit_card&amp;controllerId=__privateStripeController8281"
+                                                title="Secure CVC input frame"
+                                                style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; height: 40px;"></iframe><input
+                                                class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" "
+                                                autocomplete="false" maxlength="1"
+                                                style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row form-group mqcrdt">
+                                <div class="col-sm-6 item">
+                                    <label class="control-default" for="cc_postal">
+                                        Postal Code
+                                    </label>
+        
+                                    <div id="cc-postal" class="StripeElement StripeElement--empty">
+                                        <div class="__PrivateStripeElement"
+                                            style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+                                            <iframe name="__privateStripeFrame8289" frameborder="0"
+                                                allowtransparency="true" scrolling="no" allow="payment *"
+                                                src="https://js.stripe.com/v3/elements-inner-card-4c4e9cdd1076fb42279eddc7ed3b2b22.html#wait=false&amp;mids[guid]=NA&amp;mids[muid]=a6cc68f6-64ba-46f8-8eed-56a4895eede05b4941&amp;mids[sid]=2baa69aa-2793-4fb1-9334-65fa222a788df4e2cf&amp;style[base][color]=%23555&amp;style[base][fontSize]=13px&amp;style[base][fontWeight]=500&amp;style[base][letterSpacing]=0.8px&amp;style[base][lineHeight]=40px&amp;style[invalid][color]=%23db5694&amp;style[invalid][:focus][color]=%23555&amp;rtl=false&amp;componentName=postalCode&amp;keyMode=live&amp;apiKey=pk_live_hkgvgSBxG4TAl3zGlXiB1KUX&amp;referrer=https%3A%2F%2Fsso.teachable.com%2Fsecure%2F1105881%2Fcurrent_user%2Fcredit_card&amp;controllerId=__privateStripeController8281"
+                                                title="Secure postal code input frame"
+                                                style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; height: 40px;"></iframe><input
+                                                class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" "
+                                                autocomplete="false" maxlength="1"
+                                                style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row mt-3 mb-3">
+                                <input type="hidden" name="user_email" value="technothakur1987@gmail.com"
+                                    id="user-email">
+        
+                                <div class="col-sm-12">
+                                    <button data-size="invisible"
+                                        data-sitekey="6LdH2B0UAAAAABxa4yLYaUmYZjKyAEpSs7tAnHaC"
+                                        class="btn btn-primary btn-md verify-card profile MyEditedBtnForAll ps-4 pe-4"
+                                        data-loading-text="Verifying Card..." data-original-text="Update Credit Card"
+                                        type="submit" id="verify_cc_btn">
+                                        Update Credit Card
+                                    </button>
+        
+        
+                                </div>
+                            </div>
+                        </div>
+        
+                    </form>
+                </div>
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        </div>
+
+        
+       
+        
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="style2.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

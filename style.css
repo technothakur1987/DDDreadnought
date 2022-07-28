@@ -1,0 +1,341 @@
+.myNav{
+    position: fixed!important;
+    top: 0px!important;
+    width: 100%!important;
+    z-index: 999!important;
+}
+.profileLogo{
+    height: 2.5rem!important;
+}
+.profileIcon{
+    height: 2rem!important;
+}
+.profileIcon:hover{
+cursor: pointer!important;
+}
+.myProfileOptions{
+    position: absolute!important;
+    right: 0!important;
+   top: 67px;/*refer to line 42-45(index.js)*/
+    background-color: white!important;
+    list-style: none!important;
+    border: 1px solid grey ;
+    margin-right: 1rem!important;
+    padding: 0px!important;
+    font-weight: 400!important;
+    display: none;
+    
+    
+    
+    
+}
+.myProfileOptions li{
+    width: 100%!important;
+    padding-top: 0.2rem!important;
+    padding-bottom: 0.2rem!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    
+    
+}
+.myProfileOptions li:hover{
+    background-color: whitesmoke;
+}
+body{
+    background-color: white!important;
+    
+    
+}
+
+
+
+/*styling for scroll*/
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+   
+    /* width of the entire scrollbar */
+    transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0d6efd;
+    /* color of the tracking area */
+    transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 227, 233);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #0d6efd;
+    /* creates padding around scroll thumb */
+    transition: all .15s ease-in-out 0s;
+}
+
+/*scroll for mozilla firefox*/
+body {
+    scrollbar-width: 1rem;
+    /* "auto" or "thin" */
+    scrollbar-color: #0d6efd rgb(172, 167, 158);
+    /* scroll thumb and track */
+    transition: all .15s ease-in-out 0s;
+}
+
+
+
+/*/*scrollon class*/
+
+/*main*/
+.myMain{
+    margin-top: 100px!important;
+    z-index: -1!important;
+}
+.MyCategoryBorder{
+    
+    color: grey;
+    font-size: 1.2rem!important;
+    border-radius: 10px!important;
+    background-color: whitesmoke!important;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    
+}
+
+.myProductInput{
+    background-color: whitesmoke!important;
+    font-size: 1.2rem!important;
+    border-radius: 10px 0px 0px 10px!important;
+    border: 1px solid grey!important;
+
+    
+
+}
+.myProductBtn{
+    
+    font-size: 1.2rem!important;
+    background-color: whitesmoke!important;
+    border-radius: 0px 10px 10px 0px !important;
+    border: 1px solid grey!important;
+    
+}
+/*css for main area*/
+
+
+.mybbb{
+    width: 80%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top: 10vh!important;
+    height: 65vh!important;
+}
+.bbbhover:hover{
+   
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   border-radius: 10px!important;
+   transition: all 1s linear 0s ease-in-out!important;
+   
+}
+.mybbbimages{
+    
+    border-radius: 10px 10px 0px 0px!important;
+    height: 35vh!important;
+    background-image: url("images/Course\ image.png");
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 100% 100%!important;
+}
+.mybbbimages:hover{
+    cursor:pointer!important;
+}
+.mybbbf1{
+    color: #0d6efd!important;
+    font-size: 1.5rem!important;
+    font-weight: 600!important;
+    height:5vh!important;
+    padding-top: 1vh!important;
+    
+}
+.mybbbf1:hover{
+    cursor:pointer!important;
+
+}
+.mybbbf2{
+    font-size: 0.8rem!important;
+    height:010vh!important;
+    border-top: 10px solid rgb(209, 204, 204);
+    margin-top: 4vh!important;
+}
+.mybbbf2:hover{
+    cursor:pointer!important;
+
+}
+.mybbbf3{
+    
+    height:10vh!important;
+}
+.jasonImage{
+    height: 5vmin!important;
+    width: 5vmin!important;
+    border-radius: 50%!important;
+    margin-right: 1vw!important;
+}
+.jasonImage:hover{
+    cursor:pointer!important;
+
+}
+.jasonMiller:hover{
+    cursor:pointer!important;
+
+}
+.small-course-progress:hover{
+    cursor: pointer!important;
+
+}
+/*css for footer*/
+.myFooter{
+    margin-top: 5vh!important;
+    height:20vh!important;
+    background-color: #0d6efd!important;
+    font-weight: 600!important;
+    
+}
+.powered-by-logo{
+    height: 11px!important;
+    background-color: #3b3939!important;
+}
+.powered-by-logo:hover{
+    background-color: #131212!important;
+
+}
+a:link {
+    text-decoration: none!important;
+}
+ .footer-column a:hover {
+    color: rgb(221, 173, 228)!important;
+    
+}
+
+
+
+/*---------------------------------CSS FOR PROFILE PAGE----------------------------------------*/
+
+.profileMain{
+    margin-top: 7vh!important;
+    background-color: whitesmoke!important;
+    
+    
+}
+.profileHover{
+  border-left: 5px solid white!important;
+  background-color: whitesmoke!important;
+}
+.profileHover:hover{
+   background-color: white!important;
+   cursor: pointer!important;
+  }
+.blackBorder{
+    border-left: 5px solid black!important;
+    background-color: white!important;
+
+}
+.imagebox{
+    height: 20vmin!important;
+    width: 20vmin!important;
+    
+    border-radius: 50%!important;
+    background-image: url("images/jasonmiller.jpg")!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 100% 100%!important;
+}
+.changeContent{
+    background-color: white!important;
+    
+    
+}
+.btnColor{
+    background-color: white!important;
+
+}
+
+/*under test*/
+.samplefixed{
+    position: fixed!important;
+   
+    height: 100vh!important;
+    width: 30vw!important;
+    background-color: whitesmoke!important;
+}
+.samplechangecontent{
+    position: fixed;
+    top: 0!important;
+    right: 0!important;
+    height: 100vh!important;
+    width: 70vw!important;
+    
+    overflow-y: scroll!important;
+    padding-top: 12vh!important;
+    
+}
+.form-group{
+    margin-top: 2vh!important;
+    margin-bottom: 2vh!important;
+    padding-top: 2vh!important;
+    padding-bottom: 2vh!important;
+}
+.form-group:hover{
+    background-color: whitesmoke!important;
+    border-radius: 10px!important;
+}
+
+.addhover:hover input{
+    background-color: whitesmoke!important;
+    border-radius: 10px!important;
+    cursor: pointer!important;
+}
+.addhover:hover select{
+    background-color: whitesmoke!important;
+    border-radius: 10px!important;
+    cursor: pointer!important;
+}
+.addbtnhover:hover{
+    background-color: white!important;
+    color: #0d6efd!important;
+    cursor: pointer!important;
+}
+
+
+/*css for contacts*/
+.noHoverEffectClass:hover{
+    background-color: white!important;
+
+}
+/*css for a commomn btn for edit profile// manage subscription
+  Add/change cr card//address//contact*/
+  .MyEditedBtnForAll{
+    border-radius: 25%!important;
+    background-color: #0d6efd!important;
+    color: white!important;
+    
+
+  }
+  .MyEditedBtnForAll:hover{
+    background-color: white!important;
+    color: #0d6efd!important;
+    
+
+
+  }
+
+
+
+
